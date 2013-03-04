@@ -162,7 +162,7 @@ function spatial_file_parse_wkt_features($wkt_features, $group_multiple_values =
 
   if (SPATIAL_FILE_GROUPING_BYTYPE == $group_multiple_values) {
     $geometry_pattern = array(
-      'POINT' => '/^POINT\s*(\(-?\d+\.\d+ -?\d+\.\d+\))$/i',
+      'POINT' => '/^POINT\s*(\(-?\d+\.\d* -?\d+\.\d* (-?\d+\.*\d*)?\))$/i',
       'LINESTRING' => '/^LINESTRING\s*(\(.*\))$/i',
       'POLYGON' => '/^POLYGON\s*(\(.*\))$/i',
     );
