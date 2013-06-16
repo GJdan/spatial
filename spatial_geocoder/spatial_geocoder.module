@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file spatial_geocoder.module
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory
+ */
+function spatial_geocoder_ctools_plugin_directory($owner, $plugin_type) {
+  return 'plugins/' . $plugin_type;
+}

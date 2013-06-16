@@ -1,0 +1,7 @@
+name = Spatial Geocoder Plugin
+description = Provides a geocoder plugin for shapefile and kml files.
+package = Geo Spatial Tools
+core = 7.x
+dependencies[] = geocoder
+dependencies[] = geophp
+dependencies[] = spatial_file
